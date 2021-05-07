@@ -3,3 +3,11 @@ venv
 .idea
 .snakemake
 __pycache__
+
+# Input files
+fastq_temp/DNA/*
+!fastq_temp/DNA/README.md
+
+# Reference files
+AWS/GRCh37/*
+!AWS/GRCh37/README.md
