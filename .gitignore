@@ -15,3 +15,6 @@ AWS/GRCh37/*
 # Singularity images
 Simgs/*
 !Simgs/README.md
+
+# Sequencer produced run parameters
+RunParameters.xml
