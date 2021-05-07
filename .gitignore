@@ -11,3 +11,7 @@ fastq_temp/DNA/*
 # Reference files
 AWS/GRCh37/*
 !AWS/GRCh37/README.md
+
+# Singularity images
+Simgs/*
+!Simgs/README.md
