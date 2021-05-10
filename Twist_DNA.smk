@@ -4,7 +4,7 @@ configfile: "Twist_DNA.yaml"
 wildcard_constraints:
     unit="[A-Za-z0-9-]+",
     sample="[^.]+",
-    chr="chr[0-9XYM]+",
+    chr="[0-9XYMT]+",
 
 def get_input():
     input_list = []
