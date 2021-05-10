@@ -8,6 +8,8 @@ __pycache__
 fastq_temp/DNA/*
 !fastq_temp/DNA/README.md
 
+fastq_temp/*.gz
+
 # Reference files
 AWS/GRCh37/*
 !AWS/GRCh37/README.md
