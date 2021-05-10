@@ -23,3 +23,7 @@ RunParameters.xml
 
 # Miscellaneous
 Twist_DNA_o*
+
+# Log and temporary files
+logs
+mutect2
