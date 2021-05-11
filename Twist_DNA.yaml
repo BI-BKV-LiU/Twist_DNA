@@ -38,7 +38,7 @@ java:
     #SOBDetector: "/projects/wp4/nobackup/workspace/somatic_dev/singularity/SOBDetector_v1.0.1.jar"
 
 singularity:
-    default: "docker://gmsuppsala/somatic:develop"
+    default: "/home/Hanna/Documents/CG-Linkoping/Twist_DNA/Simgs/twist_dna_somatic.sif"
     execute: "singularity exec -B /data -B /projects -B /scratch "
     #multiqc: "/projects/wp4/nobackup/workspace/somatic_dev/singularity/multiqc-1.9.simg"
     #samtools_fgbio: "/projects/wp2/nobackup/Twist_Myeloid/Containers/bwa0.7.17-samtools-1.9.simg"
