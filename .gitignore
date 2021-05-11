@@ -13,6 +13,8 @@ fastq_temp/*.gz
 # Reference files
 AWS/GRCh37/*
 !AWS/GRCh37/README.md
+references/Homo_sapiens/UCSC/hg19/Sequence/WholeGenomeFasta/*
+!references/Homo_sapiens/UCSC/hg19/Sequence/WholeGenomeFasta/README.md
 
 # Singularity images
 Simgs/*
@@ -27,3 +29,5 @@ Twist_DNA_o*
 # Log and temporary files
 logs
 mutect2
+
+fastq/DNA/*
