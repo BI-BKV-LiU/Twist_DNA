@@ -26,8 +26,11 @@ RunParameters.xml
 # Miscellaneous
 Twist_DNA_o*
 
-# Log and temporary files
+# Logs, benchmarks and temporary files
 logs
+benchmarks
 mutect2
 
 fastq/DNA/*
+
+CNV/bed
