@@ -7,6 +7,7 @@ programs:
 
 reference: #change to hg38
     ref: "/beegfs-storage/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.fasta"
+    dict: "/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.dict"
     assembly: "hg19"
 
 PoN:
@@ -40,6 +41,5 @@ bcl2fastq_version: 2.17.1.14
 singularity:
       default: "docker://gmsuppsala/somatic:develop"
       execute: "singularity exec -B /data -B /projects -B /scratch "
-      cartool: "/projects/wp2/nobackup/Twist_Myeloid/Containers/CARTools-200206.simg"
       msisensor2: "docker://hsun9/msisensor2" #https://hub.docker.com/r/hsun9/msisensor2
       vep: "docker://ensemblorg/ensembl-vep:99.2"
