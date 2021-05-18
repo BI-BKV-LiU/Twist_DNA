@@ -3,6 +3,7 @@ venv
 .idea
 .snakemake
 __pycache__
+.java
 
 # Input files
 fastq_temp/DNA/*
@@ -34,3 +35,10 @@ mutect2
 fastq/DNA/*
 
 CNV/bed
+Results
+qc
+freebayes
+alignment
+Bam
+
+genefuse.json
