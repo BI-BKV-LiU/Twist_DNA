@@ -6,7 +6,9 @@ programs:
 
 reference: #change to hg38
     ref: "/home/Hanna/Documents/CG-Linkoping/Twist_DNA/references/Homo_sapiens/UCSC/hg19/Sequence/WholeGenomeFasta/genome.fa"
+    dict: "/home/Hanna/Documents/CG-Linkoping/Twist_DNA/references/Homo_sapiens/UCSC/hg19/Sequence/WholeGenomeFasta/genome.dict"
     #ref: "/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.fasta"
+    #dict: "/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.dict"
     assembly: hg19
 
 PoN:
