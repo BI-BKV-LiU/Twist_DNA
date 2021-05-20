@@ -102,3 +102,5 @@ callers:
 
 cnvkit:
     relevant_genes: "DATA/TSO500_relevant_genes.txt"
+
+hotspot_combined: "DATA/Hotspots_combined.csv"
