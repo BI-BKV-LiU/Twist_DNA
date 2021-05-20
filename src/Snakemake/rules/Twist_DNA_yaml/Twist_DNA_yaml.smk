@@ -61,6 +61,7 @@ rule Create_Twist_DNA_yaml:
         outfile.write("runfolder_path: /projects/wp1/nobackup/ngs/klinik/INBOX/" + run_folder_name + "/\n")
         outfile.write("samplesheet: /projects/wp1/nobackup/ngs/klinik/INBOX/" + run_folder_name + "/" + sample_sheet_name + "\n")
 
+        # Current local configurations before merge 20/5
         #outfile2 = open(output.TC, "w")
         #outfile.write("runfolder_path: /projects/wp1/nobackup/ngs/klinik/INBOX/" + run_folder_name + "/\n")
         #outfile.write("samplesheet: /projects/wp1/nobackup/ngs/klinik/INBOX/" + run_folder_name + "/" + sample_sheet_name + "\n")
