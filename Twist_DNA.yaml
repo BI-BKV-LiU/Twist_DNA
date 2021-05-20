@@ -91,3 +91,11 @@ DNA_Samples:
 samples: "samples.tsv"
 
 units: "units.tsv"
+
+callers:
+    list:
+        - "mutect2"
+        - "vardict"
+        - "varscan"
+        - "freebayes"
+    sort_order: "mutect2,vardict,varscan,freebayes"
