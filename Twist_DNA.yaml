@@ -99,3 +99,6 @@ callers:
         - "varscan"
         - "freebayes"
     sort_order: "mutect2,vardict,varscan,freebayes"
+
+cnvkit:
+    relevant_genes: "DATA/TSO500_relevant_genes.txt"
