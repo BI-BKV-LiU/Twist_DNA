@@ -87,3 +87,7 @@ DNA_Samples:
 #  PVAL-46: "S6"
 #  PVAL-47: "S7"
 #  PVAL-48: "S8"
+
+samples: "samples.tsv"
+
+units: "units.tsv"
