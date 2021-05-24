@@ -3,14 +3,16 @@ if "units" in config:
     units.index = units.index.set_levels([i.astype(str) for i in units.index.levels])  # enforce str in index
 
 
-include: "../rules/Alignment/index_bam.smk"
-
-
 demultiplex_output = "fastq_temp"
 
 
+include: "../rules/Alignment/index_bam.smk"
 include: "../rules/Fastq/demultiplex.smk"
-include: "../rules/Fastq/fix_fastq_DNA.smk"
+
+
+if config.get("move_umi", True):
+
+    include: "../rules/Fastq/fix_fastq_DNA.smk"
 
 
 if config["programs"]["Trimming"] == "Cutadapt":
@@ -102,3 +104,4 @@ include: "../rules/QC/multiqc.smk"
 include: "../rules/QC/fastqc.smk"
 include: "../rules/QC/check_coverage.smk"
 include: "../rules/DNA_fusion/geneFuse.smk"
+include: "../rules/TMB/TMB.smk"
